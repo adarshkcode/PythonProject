@@ -1,0 +1,8 @@
+low = input("Please enter a string in lowercase letters:")
+print(low.upper())
+up = input("Please enter a string in uppercase letters:")
+print(up.lower())
+mix = input("Please enter a string in a mix of lower and uppercase letters:")
+# print(mix.lower())
+# print(mix.upper())
+print(mix.swapcase())
